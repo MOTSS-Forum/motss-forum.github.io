@@ -1,0 +1,31 @@
+baseURL = 'https://motss.cc/'
+languageCode = 'zh-CN'
+title = '酷儿论坛 | MOTSS'
+theme= 'bearblog'
+
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[menu]
+[[menu.main]]
+  name = '存档'
+  url = 'https://motss-forum.github.io/archives/'
+  weight = 20
+[[menu.main]]
+  name = '捐赠我们'
+  url = '/support/'
+  weight = 40
+[[menu.main]]
+  name = 'GitHub'
+  url = 'https://github.com/MOTSS-forum/'
+  weight = 50
+
+[params]
+  copyright = "[MOTSS Forum](https://forum.motss.cc/)"
+  description = "酷儿论坛为杭州高校性少数人群营造一个多元、健康、平等的环境，促进自我认同与社会认可。"
+  hideMadeWithLine = true
+
+  favicon = "favicon.png"
+
+  title = "酷儿论坛 | MOTSS"
