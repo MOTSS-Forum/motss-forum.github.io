@@ -6,11 +6,12 @@ theme= 'bearblog'
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
+disableHugoGeneratorInject = true
 
 [menu]
 [[menu.main]]
   name = '存档'
-  url = 'https://motss-forum.github.io/archives/'
+  url = '/archives/'
   weight = 20
 [[menu.main]]
   name = '捐赠我们'
