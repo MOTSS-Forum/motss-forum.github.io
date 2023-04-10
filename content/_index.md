@@ -15,6 +15,6 @@ title: 主页
 ## 旗下
 
 - 微信公众号 (已关停，[推文存档](https://motss-forum.github.io/archives/))
-- 微信群 (请联系志愿者加入)
+- 微信群 (请联系志愿者加入，或注册论坛账号私戳)
 - [酷儿论坛](https://forum.motss.cc)
-- [工作月报](./report/)
+- [工作月报（归档）](./report/)
