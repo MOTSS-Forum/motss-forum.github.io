@@ -28,7 +28,7 @@
   {{else}}
     <small>
       <div>
-        {{ range .Site.Taxonomies.tags }}
+        {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
         <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
         {{ end }}
       </div>

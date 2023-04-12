@@ -7,27 +7,23 @@
       {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
     </time>
   </i>
-  <span>
+  <i>
     {{ with .Params.author }}
     {{ . }}
     {{ end }}
-    {{ with .Params.institution }}
-    ， {{ . }}
-    {{ end }}
-    {{ with .Params.translator }}
-    ，翻译： {{ . }}
-    {{ end }}
-    {{ end }}
-  </span>
+  </i>
 </p>
+{{ end }}
 <p>
   {{ range (.GetTerms "tags") }}
   <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
+{{ if (not .Params.notoc) }}
 <aside>
   {{ .TableOfContents }}
 </aside>
+{{ end }}
 <content>
   {{ .Content }}
 </content>

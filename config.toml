@@ -21,6 +21,7 @@ title = '冒刺图书馆'
   copyright = "[MOTSS Forum](https://motss.cc/)"
   description = "酷儿论坛为杭州高校性少数人群营造一个多元、健康、平等的环境，促进自我认同与社会认可。"
   hideMadeWithLine = true
+  dateFormat = "Jan 02, 2006"
 
   favicon = "favicon.png"
 
