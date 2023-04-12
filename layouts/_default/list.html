@@ -3,20 +3,22 @@
   {{ if .Data.Singular }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
   <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
+    <a href="{{ " blog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
   <ul class="blog-posts">
     {{ range .Pages }}
     <li>
-      <span>
-        <i>
-          <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-            {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
-          </time>
-        </i>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <div>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div>
+          <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
+          <span>| {{ .Params.author }}</span>
+        </div>
+        <div class="helptext" >
+          {{ .Summary }}
+        </div>
+      </div>
     </li>
     {{ else }}
     <li>
@@ -26,13 +28,13 @@
   </ul>
   {{ if .Data.Singular }}
   {{else}}
-    <small>
-      <div>
-        {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
-        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
-        {{ end }}
-      </div>
-    </small>
-    {{ end }}
+  <small>
+    <div>
+      {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
+      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+      {{ end }}
+    </div>
+  </small>
+  {{ end }}
 </content>
 {{ end }}

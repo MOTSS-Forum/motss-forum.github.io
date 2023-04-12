@@ -1,8 +1,8 @@
 ---
-title: 冒刺桌游 
-date:  2021-01-14
+title: 桌游 Q&A
 tags: [冒刺桌游]
 notoc: true
+type: static
 ---
 
 ## Q & A

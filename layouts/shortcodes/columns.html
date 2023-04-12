@@ -1,0 +1,7 @@
+<div class="column">
+{{ range split .Inner "<--->" }}
+<span>
+{{ . | safeHTML }}
+</span>
+{{ end }}
+</div>

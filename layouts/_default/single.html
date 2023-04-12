@@ -2,16 +2,12 @@
 {{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
-  <i>
-    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-      {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
-    </time>
-  </i>
-  <i>
-    {{ with .Params.author }}
-    {{ . }}
-    {{ end }}
-  </i>
+  <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+    {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
+  </time>
+  {{ with .Params.author }}
+  {{ . }}
+  {{ end }}
 </p>
 {{ end }}
 <p>
