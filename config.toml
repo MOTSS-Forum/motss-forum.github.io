@@ -10,7 +10,7 @@ title = '冒刺图书馆'
   weight = 40
 [[menu.main]]
   name = '学术'
-  url = '/acedamic/'
+  url = '/academic/'
   weight = 10
 [[menu.main]]
   name = '杂文'
