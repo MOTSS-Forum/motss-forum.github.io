@@ -13,7 +13,7 @@
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         <div>
           <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
-          <span>| {{ .Params.author }}</span>
+          <span>| {{ .Params.author | default "苦瓜瓜" }}</span>
         </div>
         <div class="helptext" >
           {{ .Summary }}

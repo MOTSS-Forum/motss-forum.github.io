@@ -17,7 +17,7 @@ unsafe= true
   weight = 10
 [[menu.main]]
   name = '杂文'
-  url = '/misc/'
+  url = '/article/'
   weight = 50
 
 [params]
