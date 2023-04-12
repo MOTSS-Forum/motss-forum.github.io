@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ if not .Params.menu }}
+<h1>{{ .Title }}</h1>
+<p>
+  <i>
+    <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+      {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
+    </time>
+  </i>
+  <span>
+    {{ with .Params.author }}
+    {{ . }}
+    {{ end }}
+    {{ with .Params.institution }}
+    ， {{ . }}
+    {{ end }}
+    {{ with .Params.translator }}
+    ，翻译： {{ . }}
+    {{ end }}
+    {{ end }}
+  </span>
+</p>
+<p>
+  {{ range (.GetTerms "tags") }}
+  <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+<aside>
+  {{ .TableOfContents }}
+</aside>
+<content>
+  {{ .Content }}
+</content>
+{{ end }}

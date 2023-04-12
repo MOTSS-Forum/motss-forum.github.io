@@ -1,0 +1,27 @@
+baseURL = 'http://motss.cc/library/'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = '冒刺图书馆'
+
+[menu]
+[[menu.main]]
+  name = '活动'
+  url = '/event/'
+  weight = 40
+[[menu.main]]
+  name = '学术'
+  url = '/acedamic/'
+  weight = 10
+[[menu.main]]
+  name = '杂文'
+  url = '/misc/'
+  weight = 50
+
+[params]
+  copyright = "[MOTSS Forum](https://motss.cc/)"
+  description = "酷儿论坛为杭州高校性少数人群营造一个多元、健康、平等的环境，促进自我认同与社会认可。"
+  hideMadeWithLine = true
+
+  favicon = "favicon.png"
+
+  title = "酷儿论坛"
