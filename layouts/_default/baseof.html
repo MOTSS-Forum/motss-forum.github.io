@@ -12,14 +12,13 @@
   <meta name="referrer" content="no-referrer-when-downgrade" />
 
   {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
   {{ end -}}
 
   {{- partial "style.html" . -}}
   {{ $sass := resources.Get "scss/style.scss" }}
   {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
-
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
   {{- partial "custom_head.html" . -}}
 </head>
 

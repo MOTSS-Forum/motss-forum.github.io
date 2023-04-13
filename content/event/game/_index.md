@@ -1,3 +1,4 @@
 ---
-title: 冒刺桌游 
+title: 冒刺桌游
+type: static
 ---

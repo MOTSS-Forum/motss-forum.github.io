@@ -7,22 +7,17 @@
 
     &.sidenote-right {
         right: 0;
-        margin-right: -$sidenote-width + $sidenote-offset;
+        margin-right: $sidenote-width - $sidenote-offset;
     }
 
-    @media screen and (max-width: ($container-width + 2 * ($sidenote-width + 2 * $sidenote-offset))) {
+    @media only screen and (max-width: ($container-width + 2 * ($sidenote-width + 2 * $sidenote-offset))) {
         position: static;
         margin-top: 10px;
         margin-bottom: 10px;
         width: 100%;
-        display: none;
 
         .sidenote-checkbox:checked ~ & {
             display: block;
-        }
-
-        &.sidenote-right {
-            margin-right: 0px;
         }
     }
 }

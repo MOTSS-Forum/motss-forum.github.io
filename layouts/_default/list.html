@@ -1,19 +1,30 @@
 {{ define "main" }}
 <content>
+  {{ .Content }}
   {{ if .Data.Singular }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
   <small>
     <a href="{{ " blog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
+  {{ if .Data.Singular }}
+  {{else}}
+  <small>
+    <div><strong>Tags:</strong>
+      {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
+      <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>&nbsp;
+      {{ end }}
+    </div>
+  </small>
+  {{ end }}
   <ul class="blog-posts">
-    {{ range .Pages }}
+    {{ range .RegularPages }}
     <li>
       <div>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         <div>
           <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
-          <span>| {{ .Params.author | default "苦瓜瓜" }}</span>
+          <span>| {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}</span>
         </div>
         <div class="helptext" >
           {{ .Summary }}
@@ -26,15 +37,5 @@
     </li>
     {{ end }}
   </ul>
-  {{ if .Data.Singular }}
-  {{else}}
-  <small>
-    <div>
-      {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
-      <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
-      {{ end }}
-    </div>
-  </small>
-  {{ end }}
 </content>
 {{ end }}
