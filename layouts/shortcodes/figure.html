@@ -2,7 +2,7 @@
     {{- if .Get "link" -}}
         <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
     {{- end -}}
-    <img src="{{ if .Page.Params.resurl }} {{ printf "%s/%s" .Page.Params.resurl (.Get "src") }} {{ else }} {{ .Get "src" }} {{ end }}"
+    <img src="{{ if .Page.Params.original }} {{ printf "%s_%s_%s/%s" .Site.Params.resourceUrlPrefix (.Page.Date.Format "2006-01-02" ) .Page.Params.original (.Get "src") }} {{ else }} {{ .Get "src" }} {{ end }}"
          {{- if or (.Get "alt") (.Get "caption") }}
          alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
          {{- end -}}

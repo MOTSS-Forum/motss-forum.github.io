@@ -1,7 +1,7 @@
 ---
 title: PrEP | HIV 还能这么防 
 date: 2019-11-09
-resurl: https://motss.cc/archives/wechat/html/图片/酷儿论坛_2019-11-09_PrEPHIV 还能这么防
+original: PrEPHIV 还能这么防
 summary: 疾病的历史，其实就是人类的历史，疾病所带来的各种隐喻与文化，也被深深刻进现今人类社会与文化发展的基因里。
 ---
 

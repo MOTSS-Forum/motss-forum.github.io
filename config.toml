@@ -24,12 +24,17 @@ unsafe= true
   name = '文章'
   url = '/article/'
   weight = 10
+[[menu.main]]
+  name = '新闻'
+  url = '/news/'
+  weight = 5
 
 [params]
   copyright = "[MOTSS Forum](https://motss.cc/)"
   description = "酷儿论坛为杭州高校性少数人群营造一个多元、健康、平等的环境，促进自我认同与社会认可。"
   title = "酷儿论坛"
   defaultAuthor = "苦瓜瓜"
+  resourceUrlPrefix = "https://motss.cc/archives/wechat/html/图片/酷儿论坛"
 
   dateFormat = "Jan 02, 2006"
   favicon = "favicon.png"

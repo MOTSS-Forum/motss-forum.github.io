@@ -8,5 +8,7 @@ title: 活动
 
 - [冒刺桌游]({{< relref "game/archive" >}})
 - [冒刺观影]({{< relref "movie/archive" >}})
+- [读书会]({{< relref "reading/archive" >}})
+- [讲座]({{< relref "lecture" >}})
 
 ## 其他
