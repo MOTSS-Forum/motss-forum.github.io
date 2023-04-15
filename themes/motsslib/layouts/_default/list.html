@@ -1,34 +1,33 @@
 {{ define "main" }}
+{{ $pages := .RegularPages }}
+{{ $paginator := .Paginate $pages }}
 <content>
   {{ .Content }}
   {{ if .Data.Singular }}
-  <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ " blog" | relURL }}">Remove filter</a>
-  </small>
+  <h2 style="margin-bottom:0">#{{ .Title }}</h2>
   {{ end }}
   {{ if .Data.Singular }}
   {{else}}
+  {{ with where .Site.Taxonomies.tags ".Page.Section" .Section }}
   <small>
-    <div><strong>Tags:</strong>
-      {{ range where .Site.Taxonomies.tags ".Page.Section" .Section }}
+    <div><b>Tags:</b>
+      {{ range . }}
       <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>&nbsp;
       {{ end }}
     </div>
   </small>
   {{ end }}
+  {{ end }}
   <ul class="blog-posts">
-    {{ range .RegularPages }}
+    {{ range $paginator.Pages }}
     <li>
       <div>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <div>
+        <div class="helptext">
           <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
           <span>| {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}</span>
         </div>
-        <div class="helptext" >
-          {{ .Summary }}
-        </div>
+
       </div>
     </li>
     {{ else }}
@@ -38,4 +37,8 @@
     {{ end }}
   </ul>
 </content>
+<nav>
+  {{ $paginator := .Paginate $pages }}
+  {{ template "_internal/pagination.html" . }}
+</nav>
 {{ end }}

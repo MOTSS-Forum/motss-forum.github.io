@@ -1,5 +1,5 @@
 body {
-    font-family: 'PingFang', sans-serif;
+    font-family: "PingFang", sans-serif;
     margin: auto;
     padding: 20px;
     max-width: $container-width;
@@ -8,7 +8,7 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.4;
-    color: #444;
+    color: var(--text-color);
 }
 
 h1,
@@ -17,14 +17,21 @@ h3,
 h4,
 h5,
 h6,
-strong,
 b {
-    color: #222;
+    color: var(--head-color);
+}
+
+strong {
+    color: var(--primary-text-color);
 }
 
 a {
-    color: #3273dc;
+    color: var(--accent-text-color);
     text-decoration: none;
+
+    main &:hover, nav &:hover {
+        text-decoration: underline;
+    }
 }
 
 .title {
@@ -38,6 +45,14 @@ a {
 
 nav a {
     margin-right: 10px;
+    font-weight: 900;
+    &.active {
+        text-decoration: underline;
+    }
+}
+
+header {
+    margin-bottom: 8px;
 }
 
 textarea {
@@ -114,6 +129,13 @@ blockquote {
 footer {
     padding: 25px;
     text-align: center;
+    * {
+        vertical-align: middle;
+        margin: 0 4px;
+    }
+    a {
+        color: var(--primary-text-color);
+    }
 }
 
 .helptext {
@@ -134,7 +156,8 @@ ul.blog-posts {
 
 ul.blog-posts li {
     display: flex;
-    margin-bottom: 1em;
+    margin-bottom: 12px;
+    line-height: 1.4;
     a {
         font-weight: 700;
     }
@@ -146,6 +169,10 @@ ul.blog-posts li span {
 
 ul.blog-posts li a:visited {
     color: #4e2aa2;
+}
+
+hr {
+    border: 1px solid #aaa;
 }
 
 // @media (prefers-color-scheme: dark) {

@@ -1,0 +1,9 @@
+{{ $currentPage := .Page }}
+{{ range .Site.Menus.main }}
+{{ $active := (or ($currentPage.HasMenuCurrent "main" .) ($currentPage.IsMenuCurrent "main" .)) }}
+<a href="{{ .URL }}" class="menu {{ if $active }} active {{ end }}">{{ .Name }}</a>
+{{ end }}
+{{ range .Site.Menus.static }}
+{{ $active := (or ($currentPage.HasMenuCurrent "static" .) ($currentPage.IsMenuCurrent "static" .)) }}
+<a href="{{ .URL }}" class="menu {{ if $active }} active {{ end }}">{{ .Name }}</a>
+{{ end }}

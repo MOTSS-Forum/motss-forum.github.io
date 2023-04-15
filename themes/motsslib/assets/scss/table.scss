@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    td,
+    th {
+        padding: 4px 8px;
+    }
+    thead > tr {
+        border-top: 1px solid var(--text-color);
+        border-bottom: 1px solid var(--text-color);
+    }
+    tbody {
+        border-bottom: 1px solid var(--text-color);
+    }
+    overflow: scroll;
+}

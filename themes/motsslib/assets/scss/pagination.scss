@@ -1,0 +1,25 @@
+.pagination,
+.pagination-single {
+    overflow: hidden;
+    text-align: center;
+}
+
+ul.pagination {
+    width: 100%;
+}
+
+ul.pagination,
+.pagination-single span {
+    padding: 0;
+}
+
+.pagination a,
+.pagination-single span a {
+    text-decoration: none;
+}
+
+.page-item,
+.pagination-single span {
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}

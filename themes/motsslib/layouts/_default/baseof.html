@@ -15,7 +15,6 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{- partial "style.html" . -}}
   {{ $sass := resources.Get "scss/style.scss" }}
   {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
