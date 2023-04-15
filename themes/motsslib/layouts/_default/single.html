@@ -13,13 +13,13 @@
   <a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>
   {{ end }}
 </p>
-{{ if (not .Params.notoc) }}
+<content>
+  {{ if (not .Params.notoc) }}
 <aside>
   {{ .TableOfContents }}
 </aside>
 {{ end }}
-<content>
   {{ .Content }}
-</content>
 {{- partial "related.html" . -}}
+</content>
 {{ end }}
