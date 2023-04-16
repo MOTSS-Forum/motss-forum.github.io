@@ -3,6 +3,7 @@ title: 过去的活动
 date: 2016-03-22
 summary: 曾经的影院！
 tags: [冒刺影院]
+notoc: true
 ---
 
 | No. | 日期       | 电影                                | 存档                                                                                                                                     |

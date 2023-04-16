@@ -3,6 +3,7 @@ title: 02.27 周六｜可盐可甜 INVITES 池糖 @loopy
 original: 02.27周六｜可盐可甜INVITES池糖@loopy
 date: 2021-02-22
 summary:  约会，交友，遇见新朋友
+tags: [酷儿派对]
 notoc: true
 ---
 

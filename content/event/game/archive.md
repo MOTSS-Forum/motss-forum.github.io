@@ -3,6 +3,7 @@ title: 过去的活动
 date: 2021-01-14
 summary: 曾经的桌游！
 tags: [冒刺桌游]
+notoc: true
 ---
 
 | No. | 日期       | 存档                                                                                                                                           |
