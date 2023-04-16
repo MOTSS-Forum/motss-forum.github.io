@@ -5,11 +5,4 @@ weight:
 
 ## 活动
 
-我们曾经组织了一些常规活动，可在下列常规页面中查看：
-
-- [冒刺桌游]({{< relref "game" >}})
-- [冒刺观影]({{< relref "movie" >}})
-- [读书会]({{< relref "reading" >}})
-- [讲座]({{< relref "lecture" >}})
-
-## 其他
+常规活动主要包括[冒刺桌游]({{< relref "game" >}})、[冒刺观影]({{< relref "movie" >}})和[读书会]({{< relref "reading" >}})，我们还会不定期预告一些[讲座]({{< relref "lecture" >}})。
