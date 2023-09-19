@@ -11,20 +11,20 @@ notoc: true
 | -   | 2020-12-23 | 《最幸福的季节》                    | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-12-23_冒刺影院｜最幸福的季节.html)                                            |
 | -   | 2020-12-16 | 《战场上的快乐圣诞》                | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-12-16_冒刺影院战场上的快乐圣诞.html)                                          |
 | -   | 2020-12-08 | 《RENT · 吉屋出租》                 | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-12-08_冒刺影院RENT吉屋出租.html)                                              |
-| -   | 2020-12-02 | 《Gaycation Season2 · 同行第二季 》 | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-12-02_冒刺影院GaycationSeason2同行第二季.html)                                |
+| -   | 2020-12-02 | 《Gaycation Season2 · 同行第二季》 | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-12-02_冒刺影院GaycationSeason2同行第二季.html)                                |
 | -   | 2020-11-16 | 《巴黎在燃烧》                      | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-11-16_跨性别纪念日特别活动｜《巴黎在燃烧》观影茶话会.html)                    |
 | -   | 2020-06-17 | 《被拒人生》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-06-17_冒刺影院同性婚姻平权之路：被拒人生.html)                                |
 | -   | 2020-05-15 | 《Nanette》                         | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-05-15_Nanette观影会517特别活动日.html)                                        |
 | -   | 2020-03-26 | 《Transamerica · 穿越美国》         | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2020-03-26_TransamericaMOTSS线上观影会x跨性别现身日特别期.html)                    |
 | -   | 2019-11-20 | 《丹麦女孩》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-11-20_冒刺影院《丹麦女孩》.html)                                              |
-| -   | 2019-10-02 | 《薇塔和弗吉尼亚 》                 | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-10-02_冒刺影院先锋女性作家们的爱情传记：薇塔和弗吉尼亚.html)                  |
+| -   | 2019-10-02 | 《薇塔和弗吉尼亚》                 | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-10-02_冒刺影院先锋女性作家们的爱情传记：薇塔和弗吉尼亚.html)                  |
 | -   | 2019-07-25 | 《爱你，西蒙》                      | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-07-25_冒刺影院《爱你，西蒙》.html)                                            |
 | -   | 2019-07-02 | 《同行》                            | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-07-02_冒刺影院《同行》.html)                                                  |
 | -   | 2019-04-09 | 《平常的心》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-04-09_冒刺影院《平常的心》.html)                                              |
 | -   | 2019-04-06 | 《骄傲》                            | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-04-06_冒刺影院《骄傲》.html)                                                  |
 | -   | 2019-04-05 | 《骄傲》                            | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-04-05_酷儿论坛开影展啦！.html)                                                |
 | -   | 2019-03-27 | 惊喜                                | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2019-03-27_观影马拉松国际跨性别现身日.html)                                        |
-| -   | 2018-11-30 | 《每分钟120击》                     | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2018-11-30_冒刺影院《每分钟120击》.html)                                           |
+| -   | 2018-11-30 | 《每分钟 120 击》                     | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2018-11-30_冒刺影院《每分钟120击》.html)                                           |
 | -   | 2018-04-05 | 《海德薇格与愤怒的寸茎》            | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2018-04-05_《海德薇格与愤怒的寸茎》迟到的跨性别现身日观影交流会.html)              |
 | -   | 2017-10-21 | 《月光男孩》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2017-10-21_“神秘观影会到底看什么啊！”紫色校园日系列活动.html)                      |
 | -   | 2017-08-23 | 《橘色 Tangerine》                  | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2017-08-23_电影推荐橘色Tangerine.html)                                             |
@@ -79,5 +79,5 @@ notoc: true
 | 17  | 2013-09-19 | 《指匠情挑》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-09-19_【冒刺影院】No.17《指匠情挑》（本周六下午）.html)                       |
 | 15  | 2013-06-09 | 《漂浪青春》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-06-09_【冒刺影院】No.15《漂浪青春》（明天下午浙江大学紫金港校区）.html)       |
 | 15  | 2013-08-28 | 《同志大游行》                      | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-08-28_【冒刺影院新学期回归！】本周下午!No.15同志大游行(接受微信报名哦!).html) |
-| 14  | 2013-05-22 | 《两个婚礼一个葬礼》                | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-05-22_【冒刺影院】No.14两个婚礼一个葬礼（周六下午浙大往事）.html)             |
-| 11  | 2013-04-18 | 《天佑鲍比》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-04-18_【冒刺影院】No.11《天佑鲍比》[紫金港站].html)                           |
+| 14  | 2013-05-25 | 《两个婚礼一个葬礼》                | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-05-22_【冒刺影院】No.14两个婚礼一个葬礼（周六下午浙大往事）.html)             |
+| 11  | 2013-04-20 | 《天佑鲍比》                        | [推文](https://motss.cc/archives/wechat/html/酷儿论坛_2013-04-18_【冒刺影院】No.11《天佑鲍比》[紫金港站].html)                           |
