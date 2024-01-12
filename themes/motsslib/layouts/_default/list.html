@@ -1,13 +1,13 @@
 {{ define "main" }}
 {{ $pages := .RegularPages }}
 {{ $paginator := .Paginate $pages }}
+
+{{ with .Title }}
+<h1>{{ . }}</h1>
+{{ end }}
 <content>
   {{ .Content }}
-  {{ if .Data.Singular }}
-  <h2 style="margin-bottom:0">#{{ .Title }}</h2>
-  {{ end }}
-  {{ if .Data.Singular }}
-  {{else}}
+  {{ if not .Data.Singular }}
   {{ with where .Site.Taxonomies.tags ".Page.Section" .Section }}
   <small>
     <div><b>Tags:</b>

@@ -15,7 +15,7 @@ paginate= 6
 unsafe= true
 
 [[menu.static]]
-  name = '捐赠'
+  name = '💖捐赠'
   pageRef = '/support'
   weight = 10
 
