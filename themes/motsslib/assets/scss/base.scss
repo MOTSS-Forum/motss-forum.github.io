@@ -9,6 +9,7 @@ body {
     overflow-wrap: break-word;
     line-height: 1.4;
     color: var(--text-color);
+    padding-left: calc(100vw - 100%);
 }
 
 h1,

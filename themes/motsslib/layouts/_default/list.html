@@ -22,12 +22,12 @@
     {{ range $paginator.Pages }}
     <li>
       <div>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <a href="{{ .Params.external | default .RelPermalink }}" {{ if .Params.external }}target="_blank" {{ end }}>{{
+          .Title }}</a>
         <div class="helptext">
           <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
           <span>| {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}</span>
         </div>
-
       </div>
     </li>
     {{ else }}
