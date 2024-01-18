@@ -8,15 +8,6 @@
 <content>
   {{ .Content }}
   {{ if not .Data.Singular }}
-  {{ with where .Site.Taxonomies.tags ".Page.Section" .Section }}
-  <small>
-    <div><b>Tags:</b>
-      {{ range . }}
-      <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>&nbsp;
-      {{ end }}
-    </div>
-  </small>
-  {{ end }}
   {{ end }}
   <ul class="blog-posts">
     {{ range $paginator.Pages }}
@@ -24,6 +15,14 @@
       <div>
         <a href="{{ .Params.external | default .RelPermalink }}" {{ if .Params.external }}target="_blank" {{ end }}>{{
           .Title }}</a>
+        {{ with (.GetTerms "tags") }}
+        /
+        {{ range . }}
+        <small>
+          <a href="{{ .RelPermalink }}">#{{ .Page.Title }}</a>
+        </small>
+        {{ end }}
+        {{ end }}
         <div class="helptext">
           <span>{{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}</span>
           <span>| {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}</span>

@@ -6,7 +6,7 @@ theme = 'motsslib'
 
 enableGitInfo = true
 sectionPagesMenu = 'main'
-paginate= 6
+paginate= 12
 
 [permalinks]
   event = '/:sections/:year-:month-:day/'
