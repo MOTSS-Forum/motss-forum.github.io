@@ -1,7 +1,7 @@
 ---
 title: 2019 LGBTQ 小组开放日丨回顾 
 date: 2019-06-23
-summary: 酷儿论坛上半年发展简报请过目！
+summary: 2019 LGBTQ 小组开放日
 original: "2019LGBTQ小组开放日丨回顾"
 notoc: true
 ---

@@ -70,6 +70,11 @@ input {
 
 content {
     line-height: 1.8;
+
+    >h3::before {
+        content: "▎";
+        color: var(--primary-text-color);
+    }
 }
 
 div.column {
@@ -127,6 +132,7 @@ blockquote {
     border-left: 1px solid #999;
     color: #222;
     margin: 12px;
+    margin-left: 0px;
     padding-left: 20px;
     font-style: italic;
 }
@@ -173,10 +179,6 @@ ul.blog-posts li {
 
 ul.blog-posts li span {
     flex: 0 0 130px;
-}
-
-ul.blog-posts li a:visited {
-    color: #4e2aa2;
 }
 
 hr {
