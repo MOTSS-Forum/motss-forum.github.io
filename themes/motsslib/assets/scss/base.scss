@@ -12,6 +12,13 @@ body {
     padding-left: calc(100vw - 100%);
 }
 
+// Media Queries for tablets
+@media (max-width: 768px) {
+    body {
+        max-width: 80%;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -98,7 +105,7 @@ img {
 
 figure {
     display: flex;
-    margin: 8px;
+    margin: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
