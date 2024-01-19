@@ -1,9 +1,10 @@
 {{ define "main" }}
+{{ $self := . }}
 {{ $pages := .Pages }}
 {{ $paginator := .Paginate $pages }}
 
 {{ with .Title }}
-<h1>{{ . }}</h1>
+<h1>{{ if  $self.Params.series }}{{T "series" }}{{ end }}{{ . }}</h1>
 {{ end }}
 <content>
   {{ .Content }}
@@ -36,8 +37,16 @@
     {{ end }}
   </ul>
 </content>
+{{ if .Params.series }}
+<nav>
+  <span class="prev">&larr;
+    <a href="../">{{ T "return" }}</a>
+</span>
+</nav>
+{{ else }}
 <nav>
   {{ $paginator := .Paginate $pages }}
   {{ template "_internal/pagination.html" . }}
 </nav>
+{{ end }}
 {{ end }}

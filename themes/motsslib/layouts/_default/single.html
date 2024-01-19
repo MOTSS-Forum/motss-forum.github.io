@@ -15,11 +15,12 @@
 </p>
 <content>
   {{ if (not .Params.notoc) }}
-<aside>
-  {{ .TableOfContents }}
-</aside>
-{{ end }}
+  <aside>
+    {{ .TableOfContents }}
+  </aside>
+  {{ end }}
   {{ .Content }}
-{{- partial "related.html" . -}}
+  {{- partial "related.html" . -}}
 </content>
+{{- partial "page_nav.html" . -}}
 {{ end }}

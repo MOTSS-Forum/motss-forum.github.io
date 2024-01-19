@@ -1,0 +1,18 @@
+<nav>
+    {{ if .NextInSection }}
+    <span class="prev">&larr;
+        <a href="{{ .NextInSection.Permalink }}" rel="prev">{{ .NextInSection.Title }}</a>
+    </span>
+    {{ else }}
+    <span class="prev">&larr;&nbsp;
+        {{ T "no_more" }}
+    </span>
+    {{ end }} {{ if .PrevInSection }}
+    <span class="next">
+        <a href="{{ .PrevInSection.Permalink }}" rel="next">{{ .PrevInSection.Title }}</a> &rarr;</span>
+    {{ else }}
+    <span class="next">
+        {{ T "no_more" }}&nbsp;&rarr;
+    </span>
+    {{ end }}
+</nav>

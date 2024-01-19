@@ -62,6 +62,15 @@ nav a {
     }
 }
 
+main>nav {
+    display: flex;
+    justify-content: space-between;
+
+    .prev {}
+
+    .next {}
+}
+
 header {
     margin-bottom: 8px;
 }
