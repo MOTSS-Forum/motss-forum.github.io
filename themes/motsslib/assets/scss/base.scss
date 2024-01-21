@@ -65,10 +65,7 @@ nav a {
 main>nav {
     display: flex;
     justify-content: space-between;
-
-    .prev {}
-
-    .next {}
+    margin: 16px 0;
 }
 
 header {
