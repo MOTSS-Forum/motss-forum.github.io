@@ -1,4 +1,7 @@
 ---
+slug: pooya-mohseni
+aliases:
+  - "/article/pooya-mohseni我是一个生在男人身体里的女人/"
 title: Pooya mohseni：我是一个生在男人身体里的女人
 date:  2015-10-30
 summary: 我是一个生在男人身体里的女人

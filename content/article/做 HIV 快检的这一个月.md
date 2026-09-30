@@ -1,4 +1,7 @@
 ---
+slug: a-month-of-hiv-testing
+aliases:
+  - "/article/做-hiv-快检的这一个月/"
 title: 做 HIV 快检的这一个月
 date: 2018-11-10
 notoc: true

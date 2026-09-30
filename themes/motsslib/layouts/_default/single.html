@@ -6,6 +6,9 @@
     {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
   </time>
   | {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}
+  {{ with .Params.lastmod }}
+  · 整理于 <time datetime="{{ $.Lastmod.Format "2006-01-02" }}">{{ $.Lastmod.Format "2006-01-02" }}</time>
+  {{ end }}
 </p>
 {{ end }}
 <p>
@@ -16,7 +19,7 @@
 <content>
   {{ if (not .Params.notoc) }}
   <aside>
-    {{ .TableOfContents }}
+    {{ .TableOfContents | replaceRE `</?(strong|b|em|i|mark)(\s[^>]*)?>` "" | safeHTML }}
   </aside>
   {{ end }}
   {{ .Content }}

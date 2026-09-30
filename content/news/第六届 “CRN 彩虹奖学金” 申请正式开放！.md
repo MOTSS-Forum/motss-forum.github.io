@@ -1,4 +1,7 @@
 ---
+slug: crn-rainbow-scholarship-sixth
+aliases:
+  - "/news/第六届-crn-彩虹奖学金-申请正式开放/"
 title: 第六届“CRN 彩虹奖学金”申请正式开放！
 date: 2021-03-18
 summary: 今天，第六届“CRN 彩虹奖学金”申请正式开放，截至日期为 2021 年 5 月 31 日！

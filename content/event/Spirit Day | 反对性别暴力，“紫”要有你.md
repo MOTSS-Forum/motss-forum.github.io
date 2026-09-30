@@ -1,4 +1,7 @@
 ---
+slug: spirit-day-2020
+aliases:
+  - "/event/2020-10-15/"
 title: Spirit Day | 反对性/别暴力，“紫”要有你 
 date: 2020-10-15
 original: SpiritDay反对性别暴力，“紫”要有你

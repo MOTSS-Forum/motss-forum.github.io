@@ -1,4 +1,8 @@
 ---
+slug: prep-hiv-prevention
+aliases:
+  - "/article/prep-hiv-还能这么防/"
+  - "/article/prep--hiv-还能这么防/"
 title: PrEP | HIV 还能这么防 
 date: 2019-11-09
 original: PrEPHIV还能这么防

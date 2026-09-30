@@ -1,4 +1,5 @@
 ---
+slug: board-games-faq
 title: 桌游 Q&A
 tags: [冒刺桌游]
 weight: -1

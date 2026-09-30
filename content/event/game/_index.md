@@ -1,8 +1,14 @@
 ---
 title: 冒刺桌游
-type: static
-notoc: true
-date: 2021-01-14
+layout: event-directory
 ---
 
-Work in progress.
+桌游是酷儿论坛的常规线下活动，也为不同性取向、性别认同的朋友提供相识的机会。过去的活动有志愿者带新手入门，也欢迎参与者自带桌游。
+
+[桌游 Q&A]({{< relref "event/game/桌游QA" >}}) 介绍了当时的游戏种类与活动方式。
+
+## 历年公告
+
+按年份展开查看各期公告，日期为公告日期。
+
+{{< activity-archive "game" >}}

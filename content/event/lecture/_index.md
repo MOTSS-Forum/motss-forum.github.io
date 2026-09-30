@@ -1,7 +1,7 @@
 ---
 title: 讲座
-notoc: true
-date:  2020-12-05
+layout: event-directory
+event_list_heading: 讲座记录
 ---
 
-Work in progress.
+性别研究与防艾主题讲座的介绍和活动记录。

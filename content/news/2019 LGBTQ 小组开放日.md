@@ -1,4 +1,7 @@
 ---
+slug: lgbtq-open-day-2019
+aliases:
+  - "/news/2019-lgbtq-小组开放日/"
 title: 2019 LGBTQ 小组开放日丨回顾 
 date: 2019-06-23
 summary: 2019 LGBTQ 小组开放日

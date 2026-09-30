@@ -1,0 +1,15 @@
+{{- /* Cloudflare Pages applies these before serving the HTML alias fallback. */ -}}
+{{- range $page := site.Pages -}}
+  {{- range .Aliases -}}
+    {{- $source := (urls.Parse .).EscapedPath | strings.TrimSuffix "/" -}}
+    {{- if findRE `\s` $source -}}
+      {{- errorf "Redirect alias contains whitespace: %s" $page.Path -}}
+    {{- end -}}
+    {{- printf "%s %s 301\n" $source $page.RelPermalink -}}
+    {{- printf "%s/ %s 301\n" $source $page.RelPermalink -}}
+    {{- printf "%s/index.html %s 301\n" $source $page.RelPermalink -}}
+  {{- end -}}
+{{- end -}}
+{{- range $source, $target := index hugo.Data "legacy-endpoints" -}}
+  {{- printf "%s %s 301\n" (urls.Parse $source).EscapedPath $target -}}
+{{- end -}}

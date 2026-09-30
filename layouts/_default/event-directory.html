@@ -1,0 +1,20 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<content>
+  {{ .Content }}
+  {{ with .Params.event_list_heading }}
+  <h2>{{ . }}</h2>
+  {{ end }}
+  {{ if .Params.event_list_heading }}
+  <ul class="blog-posts">
+    {{ range .RegularPages.ByDate.Reverse }}
+    <li><div>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <div class="helptext"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></div>
+    </div></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</content>
+{{ if .Parent }}<nav><a href="{{ .Parent.RelPermalink }}">&larr; {{ .Parent.Title }}</a></nav>{{ end }}
+{{ end }}

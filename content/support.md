@@ -1,4 +1,5 @@
 ---
+slug: support
 title: 捐赠我们
 date: 2023-04-12
 notoc: true

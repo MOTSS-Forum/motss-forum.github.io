@@ -1,0 +1,28 @@
+{{ $kind := .Get 0 }}
+{{ $records := index hugo.Data.events $kind }}
+{{ $years := slice }}
+{{ range $records }}{{ $years = $years | append (substr .date 0 4) }}{{ end }}
+{{ $years = uniq $years }}
+{{ if eq $kind "movie" }}
+<nav aria-label="观影年份">
+  {{ range $years }}<a href="#year-{{ . }}">{{ . }}</a> {{ end }}
+</nav>
+{{ end }}
+{{ range $years }}
+  {{ $year := . }}
+  {{ $entries := slice }}
+  {{ range $records }}{{ if eq (substr .date 0 4) $year }}{{ $entries = $entries | append . }}{{ end }}{{ end }}
+  {{ if eq $kind "game" }}
+  <details{{ if eq $year (index $years 0) }} open{{ end }}>
+    <summary>{{ $year }} 年 · {{ len $entries }} 条公告</summary>
+  {{ else }}<h2 id="year-{{ $year }}">{{ $year }}</h2>{{ end }}
+  <ul>
+    {{ range $entries }}
+    <li>
+      <a href="{{ .url }}">{{ if eq $kind "movie" }}{{ if eq .title "惊喜" }}观影马拉松（未列片名）{{ else }}{{ .title }}{{ end }}{{ else }}第 {{ .number }} 期{{ end }}</a>
+      <small> · <time datetime="{{ .date }}">{{ .date }}</time>{{ if and (eq $kind "movie") (ne .number "-") }} · 第 {{ .number }} 期{{ end }}</small>
+    </li>
+    {{ end }}
+  </ul>
+  {{ if eq $kind "game" }}</details>{{ end }}
+{{ end }}

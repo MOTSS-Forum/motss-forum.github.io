@@ -1,4 +1,7 @@
 ---
+slug: archive
+aliases:
+  - "/event/reading/2016-03-22/"
 title: 过去的活动
 date: 2016-03-22
 summary: 曾经的读书会！

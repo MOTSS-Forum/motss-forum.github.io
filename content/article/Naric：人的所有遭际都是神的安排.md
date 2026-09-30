@@ -1,4 +1,7 @@
 ---
+slug: naric-interview
+aliases:
+  - "/article/naric人的所有遭际都是神的安排/"
 title: Naric：人的所有遭际都是神的安排
 date: 2013-06-24
 summary:  Naric：人的所有遭际都是神的安排

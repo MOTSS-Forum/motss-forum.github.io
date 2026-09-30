@@ -1,4 +1,7 @@
 ---
+slug: chitang-at-loopy
+aliases:
+  - "/event/2021-02-22/"
 title: 02.27 周六｜可盐可甜 INVITES 池糖 @loopy 
 original: 02.27周六｜可盐可甜INVITES池糖@loopy
 date: 2021-02-22
@@ -47,6 +50,5 @@ notoc: true
 **Tickets**: 88RMB (现场Doors)  
 
 {{< figure src=11_BEficicoM5iaeibrsTERElg5hrd6pA.jpg >}}
-
 
 

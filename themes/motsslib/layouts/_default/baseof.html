@@ -9,6 +9,7 @@
   <title>{{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}</title>
 
   {{- partial "seo_tags.html" . -}}
+  <link rel="canonical" href="{{ .Permalink }}" />
   <meta name="referrer" content="no-referrer-when-downgrade" />
 
   {{ with .OutputFormats.Get "rss" -}}
@@ -16,7 +17,7 @@
   {{ end -}}
 
   {{ $sass := resources.Get "scss/style.scss" }}
-  {{ $style := $sass | resources.ToCSS | minify | fingerprint }}
+  {{ $style := $sass | css.Sass | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
   {{- partial "custom_head.html" . -}}
 </head>
