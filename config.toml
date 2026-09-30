@@ -30,6 +30,14 @@ paginate= 12
 [frontmatter]
   lastmod = ['lastmod', 'date', 'publishDate']
 
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+
 [markup.goldmark.renderer]
 unsafe= true
 

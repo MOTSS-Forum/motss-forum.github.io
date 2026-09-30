@@ -1,4 +1,4 @@
-{{ $related := .Site.Pages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <hr>
 <h3>{{ T "see_also" | default "See Also" }}</h3>
