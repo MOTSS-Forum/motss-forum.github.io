@@ -24,5 +24,5 @@ notoc: true
 “A+B”不仅是残同向性少数社群和残疾人公益社群提出的棘手难题，也是现代熔炉社会共通的挑战。在最光鲜的社会身份之外，每个人都在被自己的地域、民族、宗教、阶层、学历、病史、长相所限制着。我们所承蒙的款待或遭遇的排挤越来越不能被归结于某一个原因。“A+B”这个题目并没有唯一正解，但它至少会不断激活着我们的内省和批判。比起小学作文里的扶盲人叔叔过马路，或许尝试丢下单向度思维是健全人能做的更深远的“一件有意义的事”吧。
 
 > **作者**
-> {{< figure src="https://motss.cc/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2015-12-05_A+B%E6%9C%B1%E9%9D%99%E5%A7%9D%EF%BC%9A%E6%80%A7%E5%B0%91%E6%95%B0%E6%AE%8B%E7%96%BE%E4%BA%BA%E7%9A%84%E2%80%9CA+B%E2%80%9D%E9%9A%BE%E9%A2%98/1_qyUW287ZmXuqicynKMicvibDic6ohw.jpeg" caption="朱静姝" attr="" attrlink="" >}}
+> {{< figure src="https://motss-forum.github.io/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2015-12-05_A+B%E6%9C%B1%E9%9D%99%E5%A7%9D%EF%BC%9A%E6%80%A7%E5%B0%91%E6%95%B0%E6%AE%8B%E7%96%BE%E4%BA%BA%E7%9A%84%E2%80%9CA+B%E2%80%9D%E9%9A%BE%E9%A2%98/1_qyUW287ZmXuqicynKMicvibDic6ohw.jpeg" caption="朱静姝" attr="" attrlink="" >}}
 > 90后，荷兰莱顿大学及阿姆斯特丹大学在读博士。尚法学之严谨，人类学之敏锐，探索婚姻法律制度与性少数群体对话的可能。ILGA（国际男女同性恋联合会）2013年全球涉及同性恋法律汇编《State-Sponsored Homophobia（国家赞助的恐同症）》的作者之一。个人网站：http://jingshuzhu.com/

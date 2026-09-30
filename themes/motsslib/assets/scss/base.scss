@@ -1,3 +1,21 @@
+// Use upright local Kai glyphs for Chinese in italic contexts; Latin keeps
+// the site's usual italic face. No font files are downloaded.
+@font-face {
+    font-family: 'Chinese Italic';
+    src: local('Kaiti SC'), local('KaiTi'), local('STKaiti');
+    font-style: italic;
+    size-adjust: 110%;
+    unicode-range: U+2E80-303F, U+3400-4DBF, U+4E00-9FFF,
+        U+F900-FAFF, U+FE30-FE4F, U+FF00-FFEF, U+20000-323AF;
+}
+
+content em,
+content i,
+content .letter blockquote {
+    font-family: 'Chinese Italic', 'Inter', sans-serif;
+    font-synthesis-style: none;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: auto;
@@ -9,14 +27,7 @@ body {
     overflow-wrap: break-word;
     line-height: 1.4;
     color: var(--text-color);
-    padding-left: calc(100vw - 100%);
-}
-
-// Media Queries for tablets
-@media (max-width: 768px) {
-    body {
-        max-width: 80%;
-    }
+    padding-left: calc(20px + 100vw - 100%);
 }
 
 h1,
@@ -82,7 +93,7 @@ input {
 }
 
 content {
-    line-height: 1.8;
+    line-height: 1.9;
 
     >h3::before {
         content: "▎";
@@ -109,12 +120,23 @@ img {
     max-width: 100%;
 }
 
+// Preserve the former reading width for un-sized content images. Authors can
+// opt into a wider figure with the existing width attribute.
+content img:not([width]) {
+    max-width: unquote("min(100%, 600px)");
+}
+
 figure {
     display: flex;
     margin: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+figcaption {
+    min-width: 0;
+    max-width: 100%;
 }
 
 code {
@@ -147,7 +169,7 @@ blockquote {
     margin: 12px;
     margin-left: 0px;
     padding-left: 20px;
-    font-style: italic;
+    font-style: normal;
 }
 
 footer {

@@ -1,0 +1,26 @@
+// Letter-only rules keep the surrounding article and other pages unchanged.
+.letter {
+    margin-block: 1.5em;
+    padding-block: 1.5em;
+    border-block: 1px solid #aaa;
+    line-break: strict;
+
+    > p {
+        margin-block: 0 0.5em;
+        text-indent: 2em;
+    }
+
+    > .letter__salutation {
+        margin-bottom: 1em;
+        text-indent: 0;
+    }
+
+    blockquote {
+        font-style: italic;
+        text-indent: 0;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}

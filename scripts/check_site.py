@@ -19,6 +19,7 @@ class Page(HTMLParser):
     def __init__(self, text):
         super().__init__()
         self.ids, self.links, self.canonicals = set(), [], []
+        self.resource_urls = []
         self.refresh = False
         self.description = None
         self.toc_depth = 0
@@ -29,6 +30,9 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        for attribute in ('href', 'src', 'poster', 'data'):
+            if attribute in a:
+                self.resource_urls.append(a[attribute].strip())
         if 'id' in a:
             self.ids.add(a['id'])
         if tag == 'a' and 'href' in a:
@@ -90,6 +94,10 @@ for file, page in pages.items():
         continue
     assert len(page.canonicals) == 1, ('canonical count', file)
     canonical = urlsplit(page.canonicals[0])
+    for value in page.resource_urls:
+        resource = urlsplit(urljoin(page.canonicals[0], value))
+        if resource.path.startswith('/archives/') or resource.path == '/archives':
+            assert resource.scheme == 'https' and resource.netloc == 'motss-forum.github.io', ('archive resource uses wrong origin', file)
     assert re.fullmatch(r'/(?:[a-z0-9]+(?:-[a-z0-9]+)*/)*', canonical.path), ('non-English permalink', canonical.path)
     assert not page.toc_emphasis, ('emphasis in TOC', file)
     assert page.description and '<' not in page.description and len(page.description) <= 170, ('invalid description', file)
@@ -98,9 +106,6 @@ for file, page in pages.items():
     for href in page.links:
         u = urlsplit(urljoin(page.canonicals[0], href))
         if u.netloc != canonical.netloc or u.scheme not in {'http', 'https'}:
-            continue
-        # Public WeChat archives are hosted separately from this Hugo build.
-        if u.path.startswith('/archives/'):
             continue
         assert unquote(u.path) not in rules, ('internal link uses legacy URL', file, href)
         target = local_file(u.path)

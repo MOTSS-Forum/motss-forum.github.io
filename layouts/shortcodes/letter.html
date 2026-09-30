@@ -1,0 +1,4 @@
+<section class="letter" aria-label="书信正文">
+  {{ with .Get "salutation" }}<p class="letter__salutation">{{ . }}</p>{{ end }}
+  {{ .Page.RenderString (dict "display" "block") .Inner }}
+</section>

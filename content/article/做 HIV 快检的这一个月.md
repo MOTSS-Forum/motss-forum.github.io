@@ -212,7 +212,7 @@ summary: 本文（“做 HIV 快检的这一个月”）由快检组志愿者豪
 
 最近在读高毅翻译的 James Miller 的再版《福柯的生死爱欲》。
 
-{{< figure src="https://motss.cc/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2018-11-10_%E5%81%9AHIV%E5%BF%AB%E6%A3%80%E7%9A%84%E8%BF%99%E4%B8%80%E4%B8%AA%E6%9C%88/2_P3A08MKqhx9Sia7w54ws6WkM91H78Q.png" caption="图 / 福柯的生死爱欲" attr="" attrlink="" >}}
+{{< figure src="https://motss-forum.github.io/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2018-11-10_%E5%81%9AHIV%E5%BF%AB%E6%A3%80%E7%9A%84%E8%BF%99%E4%B8%80%E4%B8%AA%E6%9C%88/2_P3A08MKqhx9Sia7w54ws6WkM91H78Q.png" caption="图 / 福柯的生死爱欲" attr="" attrlink="" >}}
 
 福柯的生命是他本人穷尽一生所塑造的艺术品，他是学者：从疯癫史到监狱史，从罪与罚到性经验；他是斗士：从五月风暴到伊斯兰革命，从性少数运动到欧洲学潮。学者和斗士两个角色的有机融合，正是这位我心中的英雄的伟大之处，他用尽全力，让自己的生命在自己的思想轨道上前行——让思想与生活重合，以生命为剑，用力地刺向犬儒者们。
 
@@ -232,6 +232,6 @@ summary: 本文（“做 HIV 快检的这一个月”）由快检组志愿者豪
 
 今天杭州的天在阴霾下透着淡淡的蓝色，给人一种释然之感。但愿服用完阻断药的小A安然无事，小B的初筛结果也只是虚惊一场……
 
-{{< figure src="https://motss.cc/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2018-11-10_%E5%81%9AHIV%E5%BF%AB%E6%A3%80%E7%9A%84%E8%BF%99%E4%B8%80%E4%B8%AA%E6%9C%88/3_Yau7FZQ63UbibyGYLicVXFxfeO5d3g.png" caption="图 / 今天杭州灰蓝灰蓝的天空" attr="" attrlink="" >}}
+{{< figure src="https://motss-forum.github.io/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2018-11-10_%E5%81%9AHIV%E5%BF%AB%E6%A3%80%E7%9A%84%E8%BF%99%E4%B8%80%E4%B8%AA%E6%9C%88/3_Yau7FZQ63UbibyGYLicVXFxfeO5d3g.png" caption="图 / 今天杭州灰蓝灰蓝的天空" attr="" attrlink="" >}}
 
 逼哥说：“**这个世界会好的。**”

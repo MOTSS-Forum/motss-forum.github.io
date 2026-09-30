@@ -43,7 +43,7 @@ unsafe= true
   description = "酷儿论坛为杭州高校性少数人群营造一个多元、健康、平等的环境，促进自我认同与社会认可。"
   title = "酷儿论坛"
   defaultAuthor = "苦瓜瓜"
-  resourceUrlPrefix = "https://motss.cc/archives/wechat/html/图片/酷儿论坛"
+  resourceUrlPrefix = "https://motss-forum.github.io/archives/wechat/html/图片/酷儿论坛"
   footer = '<a href="{{< relref "/" >}}"><img src="/34d81d63fc27cfbe190bbcb3c6c5412c65b04086.png" height="20px"/><span>·</span><strong>多元 × 健康 × 平等</strong></a>'
 
   dateFormat = "Jan 02, 2006"

@@ -9,7 +9,7 @@ tags: [同声传译]
 notoc: true
 ---
 
-{{< figure src="https://motss.cc/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2015-10-30_%E3%80%90%E5%90%8C%E5%A3%B0%E4%BC%A0%E8%AF%91%E3%80%91Pooyamohseni%E6%88%91%E6%98%AF%E4%B8%80%E4%B8%AA%E7%94%9F%E5%9C%A8%E7%94%B7%E4%BA%BA%E8%BA%AB%E4%BD%93%E9%87%8C%E7%9A%84%E5%A5%B3%E4%BA%BA/1_GRb40W3zyMtUj8praIwGHbZNd6f5fw.jpeg" caption="原载于Medium" attr="" attrlink="" >}}
+{{< figure src="https://motss-forum.github.io/archives/wechat/html/%E5%9B%BE%E7%89%87/%E9%85%B7%E5%84%BF%E8%AE%BA%E5%9D%9B_2015-10-30_%E3%80%90%E5%90%8C%E5%A3%B0%E4%BC%A0%E8%AF%91%E3%80%91Pooyamohseni%E6%88%91%E6%98%AF%E4%B8%80%E4%B8%AA%E7%94%9F%E5%9C%A8%E7%94%B7%E4%BA%BA%E8%BA%AB%E4%BD%93%E9%87%8C%E7%9A%84%E5%A5%B3%E4%BA%BA/1_GRb40W3zyMtUj8praIwGHbZNd6f5fw.jpeg" caption="原载于Medium" attr="" attrlink="" >}}
 
 先让我做个自我介绍吧：我叫Pooya，我是一个生在男人身体里的女人。我出生在一个远没有可以随意谈论甚至承认自己这一身份的年代。大多数人似乎对于我这样的跨性别者有着些许的困惑。
 

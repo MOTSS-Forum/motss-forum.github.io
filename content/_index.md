@@ -22,4 +22,4 @@
 ## 其他有用链接
 
 - [酷儿论坛](https://forum.motss.cc)
-- [推文存档备份](https://motss.cc/archives/) (考古 Only)
+- [推文存档备份](https://motss-forum.github.io/archives/) (考古 Only)

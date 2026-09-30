@@ -2,13 +2,10 @@
 {{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
-  <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
+  <time datetime='{{ .Date.Format "2006-01-02" }}' title='{{ printf "发表时间：%s\n最后修改时间：%s" (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}' pubdate>
     {{ .Date.Format (default "Jan 02, 2006" .Site.Params.dateFormat) }}
   </time>
   | {{ .Params.author | default .Site.Params.defaultAuthor | default (T "Anonymous") }}
-  {{ with .Params.lastmod }}
-  · 整理于 <time datetime="{{ $.Lastmod.Format "2006-01-02" }}">{{ $.Lastmod.Format "2006-01-02" }}</time>
-  {{ end }}
 </p>
 {{ end }}
 <p>
